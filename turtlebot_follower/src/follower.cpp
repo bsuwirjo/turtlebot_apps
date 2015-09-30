@@ -42,7 +42,7 @@
 
 namespace turtlebot_follower
 {
-ros::Rate loop_rate(1000);
+ros::Rate loop_rate(100000);
 
 typedef pcl::PointCloud<pcl::PointXYZ> PointCloud;
 
